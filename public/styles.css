@@ -1,0 +1,165 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  font-family: Spartan;
+}
+
+.container-fluid {
+  padding: 100px;
+}
+.row {
+  padding-right: 2px !important;
+}
+.col-lg-5 {
+}
+.col-lg-6 {
+  padding: 50px 20px 35px 20px;
+}
+.content {
+  padding: 70px 20px 15px 20px;
+  margin-left: 50px;
+}
+.content.manufacture {
+}
+p {
+  font-size: 12px;
+  color: hsl(0, 0%, 63%);
+}
+.content h2 {
+  font-family: Spartan;
+}
+
+.carouselButton {
+  height: 70px;
+  width: 12%;
+  background-color: hsl(0, 0%, 0%);
+  position: absolute;
+  bottom: 0px;
+  right: 309px;
+}
+.carousel-control-prev-icon {
+  position: absolute;
+  bottom: 20px;
+  left: 730px;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 340px;
+  background-color: hsl(0, 0%, 0%);
+}
+.NAVBAR {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+}
+a {
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.desktop-image {
+  height: fit-content;
+  width: 700px;
+  float: left;
+  margin-right: 80px;
+}
+.dark-image {
+  height: 270px;
+  width: 270px;
+}
+.light-image {
+  height: 270px;
+  width: 270px;
+}
+
+@media only screen and (max-width: 767px) {
+  .desktop-image {
+    margin-bottom: 50px;
+  }
+  .dark-image {
+    height: 270px;
+    width: 540px;
+    margin-top: 50px;
+  }
+  .light-image {
+    height: 270px;
+    width: 540px;
+  }
+  .carouselButton {
+    height: 70px;
+    width: 22%;
+    background-color: hsl(0, 0%, 0%);
+    position: absolute;
+    bottom: 260px;
+    right: 0px;
+  }
+  .carousel-control-prev-icon {
+    position: absolute;
+    bottom: 280px;
+    left: 440px;
+    background-color: hsl(0, 0%, 0%);
+  }
+
+  .carousel-control-next-icon {
+    position: absolute;
+    bottom: 280px;
+    right: 20px;
+    background-color: hsl(0, 0%, 0%);
+  }
+}
+@media only screen and (min-width: 325px) and (max-width: 480px) {
+  .container-fluid {
+    padding: 40px;
+  }
+  .content p {
+    margin-bottom: 50px;
+  }
+  h6 {
+    margin-top: 20px;
+  }
+  .desktop-image {
+    margin-bottom: 50px;
+    width: 318px;
+    height: 200px;
+  }
+  .dark-image {
+    height: 270px;
+    width: 318px;
+    margin-top: 50px;
+  }
+  .light-image {
+    height: 270px;
+    width: 318px;
+  }
+  .carouselButton {
+    height: 45px;
+    width: 29%;
+    background-color: hsl(0, 0%, 0%);
+    position: absolute;
+    bottom: 308px;
+    right: 13px;
+  }
+  .carousel-control-prev-icon {
+    position: absolute;
+    bottom: 313px;
+    left: 237px;
+    background-color: hsl(0, 0%, 0%);
+  }
+
+  .carousel-control-next-icon {
+    position: absolute;
+    bottom: 313px;
+    right: 25px;
+    background-color: hsl(0, 0%, 0%);
+  }
+  .content {
+    padding: 0px;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .col-lg-6 {
+    padding: 50px 20px 35px 20px;
+  }
+}
